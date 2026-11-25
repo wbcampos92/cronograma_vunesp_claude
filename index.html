@@ -242,7 +242,7 @@ document.addEventListener("click",e=>{
   lista.scrollIntoView({behavior:"smooth",block:"start"});
 });
 /* ===== Sincronização com planilha do Google Drive (via Google Apps Script) ===== */
-const https://script.google.com/macros/s/AKfycbxO878kqISiIb9NBiHgehkLbul9hIG3QQN58EcnL9WaNRWz1Nj3HC3PMuRqvFOv8gId_w/exec="",Xitois9247="";
+const SYNC_URL_PADRAO="https://script.google.com/macros/s/AKfycbzUsAcRpk3z_dlabAscImeJcnvJF2fmGZ9FMZ03nSvh/dev",SYNC_CHAVE_PADRAO="Xitois9247";
 const KEYCFG="estudo_diario_sync";
 let CFG={};try{CFG=JSON.parse(localStorage.getItem(KEYCFG)||"{}")}catch(e){}
 CFG.url=CFG.url||SYNC_URL_PADRAO;CFG.chave=CFG.chave||SYNC_CHAVE_PADRAO;CFG.ult=CFG.ult||0;
